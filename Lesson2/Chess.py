@@ -397,7 +397,7 @@ if __name__ == '__main__':
     for move in r2.get_possible_moves(chessboard.board):
         print(move)
 
-    # Проверка атаки
+    # Проверка атаки слона
     print('\n ♗ Может ли слон атаковать пешку на е2?')
     can_bishop_attack_pawn = b1.can_attack(4,1, chessboard.board)
     print('Да' if can_bishop_attack_pawn else 'Нет')
